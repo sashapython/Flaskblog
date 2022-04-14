@@ -1,0 +1,73 @@
+.side-alert{
+    position: fixed;
+    font-size: 18px;
+    padding: 1%;
+    top: 0;
+    margin: 1%;
+}
+
+.sa-con{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.sa-success{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    color: rgb(0, 210, 0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.sa-close{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: bold;
+    color: inherit;
+}
+
+.sa-danger{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    color: rgb(210, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.sa-warning{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    color: rgb(196, 210, 0);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.sa-info{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    color: rgb(0, 144, 210);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.image-rounded{
+    border-radius:100%;
+}
+
+.text-steel{
+    color: steelblue;
+}
+
+.bg-steel{
+    background-color: steelblue !important;
+}
+
+.ml-3{
+    margin-left: 2.5%;
+}
+
+.text-black{
+    color: black !important;
+}
+
+.rounded-full{
+    border-radius:100%;
+}

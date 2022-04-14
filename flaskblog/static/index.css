@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.df-form{
+    display: flex;
+    flex-direction: column;
+}
+
+df-title{
+    font-size:40px;
+    margin-bottom: 3%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.156);
+}
+
+.df-textinput{
+    font-size:19px;
+    padding: 1%;
+    margin-bottom: 3%;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 0px;
+}
+
+.df-button{
+    width: 200px;
+    cursor: pointer;
+}
+
+.button-purple{
+    background-color: rgb(70, 0, 183) !important;
+    color: white !important;
+    border: none;
+}
+
+.button-purple:hover{
+    background-color: rgb(51, 27, 103) !important;
+}
+
+
+.button-blue{
+    background-color: rgb(0, 67, 183);
+    padding: 1%;
+    color: white;
+    border: none;
+}
+
+.button-blue:hover{
+    background-color: rgb(7, 0, 148);
+}
+
+
+.button-green{
+    background-color: rgb(3, 183, 0);
+    padding: 1%;
+    color: white;
+    border: none;
+}
+
+.button-green:hover{
+    background-color: rgb(0, 148, 27);
+}
+
+.link-purple{
+    text-decoration: none;
+    color: rgb(101, 0, 183);
+}
+
+.link-blue{
+    text-decoration: none;
+    color: rgb(9, 0, 183);
+}
+
+.link-green{
+    text-decoration: none;
+    color: rgb(72, 150, 0);
+}
+
+.invalid{
+    border: 1px solid red !important;
+    margin-bottom: 0% !important;
+}
+
+.error-text{
+    color: red;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: rgb(101, 0, 183) !important;
+}
+
+.df-card{
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    padding: 2%;
+}
+
+tiny{
+    font-size:20px;
+}
+
+.rounded-md{
+    border-radius: 7px;
+}
+
+.rounded-sm{
+    border-radius: 3px;
+}
+
+.rounded-lg{
+    border-radius: 12px;
+}
+
+.text-lg{
+    font-size: 30px;
+}
+
+.text-md{
+    font-size: 22px;
+}
+
+.text-sm{
+    font-size: 16px;
+}
+
+.m-8{
+    margin: 8%;
+}
